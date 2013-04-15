@@ -87,6 +87,5 @@
     <None Include="Bootloader.xml" />
     <None Include="moodlet.png" />
     <None Include="moodlet.svg" />
-    <None Include="Readme.md" />
   </ItemGroup>
 </Project>
