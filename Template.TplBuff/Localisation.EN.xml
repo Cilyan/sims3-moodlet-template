@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TEXT>
+<!-- This file contains formatting that is not accepted by Twallan's STBL.exe compiler -->
+<!-- Please use http://www.cilyan.org/misc/sims/stblc.exe to compile it into a valid STBL file -->
+
+<!-- For Buffs, the beginning of the key (before the colon) is important. You need to keep it
+     For example, the key for your buff name should be "Gameplay/Excel/buffs/BuffList:" and then
+     the reference you gave in the buff XML file. -->
+
+<!-- Name of the buff in the game -->
+<KEY>Gameplay/Excel/buffs/BuffList:Template.TplBuff.BuffTest</KEY>
+<STR>Under test</STR>
+
+<!-- Description of the buff in the game -->
+<KEY>Gameplay/Excel/buffs/BuffList:Template.TplBuff.BuffTest.Description</KEY>
+<STR>Any sim likes to be under test. They feel important.</STR>
+
+<!-- Don't really know, but same as description is OK -->
+<KEY>Gameplay/Excel/buffs/BuffList:BuffList:Template.TplBuff.BuffTest.FPD</KEY>
+<STR>Any sim likes to be under test. They feel important.</STR>
+
+<!-- Description of the origin (reason) -->
+<!-- Like for name and description, always starts with "Gameplay/Excel/buffs/BuffOrigins:"
+     then, use the same string you used when calling your moodlet (the second parameter of
+     AddElement). If you want to use Twallan's STBL, you do not have access (currently)
+     to the FNV() function. You will need to compute it yourself (S3PE) and put it here
+     without the leading "0x". In this case, that would give
+     "Gameplay/Excel/buffs/BuffOrigins:252433B0A5E3156C" -->
+<KEY>Gameplay/Excel/buffs/BuffOrigins:FNV(Template.TplBuff.MyOrigin)</KEY>
+<STR>(Reason: Is under test)</STR>
+
+<!-- You can have your other strings here. -->
+<KEY>Template/TplBuff/BuffTestInteraction:TestBuff</KEY>
+<STR>Test Moodlet</STR>
+</TEXT>

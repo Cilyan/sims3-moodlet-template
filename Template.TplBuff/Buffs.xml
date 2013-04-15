@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomBuffs><!-- Any name you like, but make it match the close tag -->
+<!-- You MUST leave the following entry as it is. This is the template. -->
+  <BuffList>
+    <BuffName></BuffName>
+    <BuffDescription></BuffDescription>
+    <BuffHelpText></BuffHelpText>
+    <FirstPersonDescription></FirstPersonDescription>
+    <Category></Category>
+    <PermaMoodlet>False</PermaMoodlet>
+    <PermaMoodletColor></PermaMoodletColor>
+    <AxisEffected></AxisEffected>
+    <PolarityOverride>NoOverride</PolarityOverride>
+    <EffectValue></EffectValue>
+    <DelayTimer>0</DelayTimer>
+    <TimeoutLength></TimeoutLength>
+    <SKU>BaseGame</SKU>
+    <SolveCommodity></SolveCommodity>
+    <AttemptAutoSolve>False</AttemptAutoSolve>
+    <SolveTime></SolveTime>
+    <Stackable></Stackable>
+    <IsExtreme>False</IsExtreme>
+    <FacialIdle></FacialIdle>
+    <IncreasedEffectiveness></IncreasedEffectiveness>
+    <ReducedEffectiveness></ReducedEffectiveness>
+    <Hex></Hex>
+    <CustomClassName></CustomClassName>
+    <ThumbFilename></ThumbFilename>
+    <Topic></Topic>
+    <ShowBallon>True</ShowBallon>
+    <Travel>False</Travel>
+    <DisallowedOccults></DisallowedOccults>
+    <JazzStateSuffix></JazzStateSuffix>
+    <Version>0.1</Version>
+    <SpeciesAvailability>All</SpeciesAvailability>
+  </BuffList>
+<!-- Here starts the definition of your Buffs -->
+  <BuffList>
+    <BuffName>Template.TplBuff.BuffTest</BuffName><!-- Reference to the name of the buff in the STBL file: any string you like -->
+    <BuffDescription>Template.TplBuff.BuffTest.Description</BuffDescription><!-- Reference to the description in the STBL file: any string you like -->
+    <FirstPersonDescription>Template.TplBuff.BuffTest.FPD</FirstPersonDescription><!-- Reference to the FPD in the STBL file: any string you like -->
+    <Hex>BuffTest=0xBA6A603922D6FB61</Hex><!-- Name of your class and the hash you gave it -->
+    <CustomClassName>Template.TplBuff.BuffTest, Template.TplBuff</CustomClassName><!-- AssemblyQualifiedName of your class: Namespace.Class,Assembly -->
+    <ThumbFilename>Template.TplBuff.Icons.BuffTest</ThumbFilename><!-- Name of the icon in the .package file -->
+    <!-- Effects of your custom moodlet -->
+    <Category>Physical</Category>
+    <AxisEffected>Happy</AxisEffected>
+    <EffectValue>20</EffectValue>
+    <TimeoutLength>240</TimeoutLength>
+    <SKU>BaseGame</SKU>
+    <Stackable>False</Stackable>
+    <Version>0.1</Version>
+  </BuffList>
+</CustomBuffs>
